@@ -1,3 +1,4 @@
+/*
 body {
     margin: 0;
     padding: 0;
@@ -6,3 +7,85 @@ body {
     font-size: 18px;
    
     }
+*/
+aside {
+    background: #fff;
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Container {
+    background: #666;
+    width: 50%;
+    
+}
+
+
+.clearfix ::after{
+content: " ";
+display: block;
+clear: both; 
+}
+
+#bluebar {
+    background: #6ea3da;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: -10px;
+    float: left;
+    
+    
+}
+
+#Header {
+    background:#ccc;
+    padding: 20px;    
+    width:50%;
+}
+section{
+    widows: 100%;
+    overflow: auto;
+    clear: both;
+    background: #394549    
+}
+#Section1 {
+    background: #666;
+    padding: 20px;
+    float: left;
+    width: 16.6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Section2 {
+    background: #888;
+    padding: 20px;
+    float: left;
+    width: 16.6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Section3 {
+    background: #666;
+    padding: 20px;
+    float: left;
+    width: 16.6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#MainContent {
+    background: #eee;
+    padding: 20px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Footer {
+    background: #ccc;
+    padding: 20px;
+}
