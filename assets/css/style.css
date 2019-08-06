@@ -1,91 +1,180 @@
-/*
-body {
-    margin: 0;
-    padding: 0;
-    background: #efeee7;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-   
-    }
-*/
-aside {
+.header_main {
     background: #fff;
-    float: left;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    z-index: 1;
+    height: 110px;
+    margin-bottom: -40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
-
-#Container {
-    background: #666;
-    width: 50%;
+.header {
+    background: #4aaaa5;
+    color: #fff;   
+    float: left;
+    padding: 5px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: -10px;
+    position: relative;
+    border-radius: 15px;
     
 }
-
-
-.clearfix ::after{
-content: " ";
-display: block;
-clear: both; 
-}
-
-#bluebar {
-    background: #6ea3da;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: -10px;
-    float: left;
-    
-    
-}
-
-#Header {
-    background:#ccc;
-    padding: 20px;    
-    width:50%;
-}
-section{
-    widows: 100%;
-    overflow: auto;
-    clear: both;
-    background: #394549    
-}
-#Section1 {
-    background: #666;
-    padding: 20px;
-    float: left;
-    width: 16.6%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#Section2 {
-    background: #888;
-    padding: 20px;
-    float: left;
-    width: 16.6%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#Section3 {
-    background: #666;
-    padding: 20px;
-    float: left;
-    width: 16.6%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#MainContent {
-    background: #eee;
-    padding: 20px;
+.links {
     float: right;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: #000;
+
+    
+}
+div {
+    border-radius: 15px;
+}
+a {
+    text-decoration: none;
+}
+hr {
+    content: " ";
+    display: block;
+    clear: both;
+} 
+body {
+    margin: 0px;
+    background-image: url('https://pizzaschool.com/wp-content/uploads/2016/10/marblebackground.jpg');
 }
 
-#Footer {
-    background: #ccc;
-    padding: 20px;
+.main {
+    margin-top: -7px;
+    color: #4aaaa5;
+    background: #fff;
+    position: relative;
+    margin-left:20%;
+    margin-right: 20%;
+    padding: 10px;
+    bottom: 0;
+    height: 700px;
+    
 }
+.main_header {
+    background: #fff;
+    z-index: 1;
+}
+.about_text {
+    width: 50%;
+}
+
+p {
+    color: #777777; 
+    position: relative;
+    float: left;
+    line-height: 150%;
+    font-size: 25px;
+    margin-top: 0px;
+    
+}
+
+img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float: left;
+    border-radius: 15px;
+}
+.footer {
+    content: " ";
+    display: block;
+    clear: both; 
+    margin: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.f1 {
+    background: #4aaaa5;
+    padding: 4px;
+    border-radius: 0px;
+}
+.f2 {
+    background: #666666;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+/*
+    CONTACTS
+*/
+.subhead {
+    font-size: 20px;
+    color: #000; 
+}
+textarea {
+    background: lightgray;
+    margin: 10px; 
+    width: 90%;
+    resize: none;
+    padding: 5px;
+    border-radius: 15px;
+}
+.ta_name{
+   height: 20px;
+}
+.ta_email{
+    height: 20px;
+}
+.ta_message{
+    Height: 300px;
+}
+.submit {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+/*
+    CONTACTS
+*/
+
+/*
+    PORTFOLIO
+*/
+.portfolio {
+    background: #fff;
+    width: 40%;
+    padding: 10px
+}
+.pImg {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+
+}
+/*
+    PORTFOLIO
+*/
+
+
+/*
+Teal color (used for headings and backgrounds): #4aaaa5
+
+Regular font color (used for paragraphs and all text besides the headings): #777777
+
+Main header background color: #ffffff
+
+Main header border color: #cccccc
+
+Footer background color: #666666
+
+Main content background color: #ffffff
+
+Main content border color: #dddddd
+
+*/
