@@ -1,0 +1,48 @@
+section {
+    background: red;
+    padding: 1px;
+    border: 2px solid blue;
+    
+}
+header {
+    background: green;
+    height: 100px;
+    
+    border: 2px solid yellow;
+    
+}
+aside {
+    background: brown;
+    height: 200px;
+    width: 15%;
+    border: 2px solid orange;
+    float: left;
+}
+article {
+    background: white;
+    height: 200px;
+    width: 35%;
+    border: 2px solid gray;
+    float: left;
+    margin-left: 2%;
+    
+}
+
+div {
+    background: teal;
+    height: 200px;
+    width: 15%;
+    border: 2px solid gold;
+    float: right;
+}
+
+footer {
+    background: purple;
+    height: 100px;
+    border: 2px solid hotpink;
+    clear: both;
+}
+iframe {
+    height:500px;
+    width: 500px;
+}

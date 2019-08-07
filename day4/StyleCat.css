@@ -1,0 +1,56 @@
+section {
+    background: red;
+    padding: 1px;
+    border: 2px solid blue;
+    
+}
+header {
+    background: green;
+    height: 100px;    
+    border: 2px solid yellow;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+aside {
+    background:teal;
+    height: 254px;
+    width: 204;
+    border: 2px solid gold;
+    float: left;
+}
+article {
+    background:teal;
+    height: 300px;
+    width: 850px;
+    border: 2px solid gold;
+    float: left;
+    margin-left: 2%;
+    
+}
+
+div {
+    background: teal;
+    height: 254px;
+    width: 204px;
+    border: 2px solid gold;
+    float: right;
+}
+
+footer {
+    background: green;
+    height: 100px;
+    border: 2px solid black;
+    clear: both;
+    text-align: center;
+    color: white;
+}
+iframe {
+    height:250px;
+    width: 200px;
+}
+img {
+    height: 250px;
+    width: 200px;
+    padding: 1px;
+}
