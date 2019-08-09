@@ -1,4 +1,4 @@
-.header_main {
+header {
     background: #fff;
     z-index: 1;
     height: 110px;
@@ -25,19 +25,24 @@
     margin-bottom: 0px;
     font-size: 25px;
     color: #000;
+}
+
+a:focus:hover:visited:active {
+    color: #000;
+    text-decoration: none;
+}
 
     
 }
 div {
     border-radius: 15px;
 }
-a {
-    text-decoration: none;
-}
+
 hr {
     content: " ";
     display: block;
     clear: both;
+    height: 3px;
 } 
 body {
     margin: 0px;
@@ -67,7 +72,7 @@ body {
 p {
     color: #777777; 
     position: relative;
-
+    
     line-height: 150%;
     font-size: 25px;
     margin-top: 0px;
@@ -78,7 +83,7 @@ img {
     position: relative;
     height: 200px;
     width: 200px;
-    
+    float:left;
     border-radius: 15px;
 }
 .footer {
